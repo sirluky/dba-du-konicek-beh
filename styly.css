@@ -73,10 +73,19 @@ blockquote p {
   padding: 15px;
 }
 
-#hlavni-menu {
+aside .menu li {
+  padding: 5px;
+
 }
-#hlavni-menu .aktivni {
+aside .menu li:hover {
+  background: var(--hlavni);  
+}
+aside .menu .aktivni {
   color: red !important;
+}
+aside .menu ul{
+  list-style: none;
+  padding-left: 0px;
 }
 
 /* Střední zařízení (tablety, 768px and up) */
