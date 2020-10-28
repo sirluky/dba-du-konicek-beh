@@ -1,7 +1,7 @@
 /* START Vyvoj */
 * {
   /* zobrazí ohraničení okolo všech elementů */
-  border: thin solid blue;
+  /* border: thin solid blue; */
 }
 /* END Vyvoj */
 
@@ -41,6 +41,27 @@ blockquote:before {
 blockquote p {
   display: inline;
 }
+table td,
+table th {
+  padding: 5px;
+}
+table {
+  background: rgba(255, 255, 255, 0.493);
+  padding: 20px;
+  border-radius: 10px;
+}
+table th {
+  background: rgba(255, 255, 255, 0.678);
+}
+table tr td {
+  background: rgb(209, 209, 209);
+}
+table tr:nth-child(2n) td {
+  background: rgb(170, 170, 170);
+}
+table tr:hover td {
+  background: rgba(255, 255, 176, 0.486);
+}
 /* END základní parametry */
 
 /* START barvy */
@@ -75,17 +96,26 @@ blockquote p {
 
 aside .menu li {
   padding: 5px;
-
 }
+aside .menu li ul {
+  display: none;
+}
+aside .menu li:hover ul {
+  display: block;
+}
+
 aside .menu li:hover {
-  background: var(--hlavni);  
+  background: var(--hlavni);
 }
 aside .menu .aktivni {
   color: red !important;
 }
-aside .menu ul{
+aside .menu ul {
   list-style: none;
   padding-left: 0px;
+}
+aside .menu ul li {
+  text-align: center;
 }
 
 /* Střední zařízení (tablety, 768px and up) */

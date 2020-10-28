@@ -27,20 +27,20 @@
 
             <ul>
               <li>
-                <a href="index.html">Domů</a>
+                <a href="index.php">Domů</a>
               </li>
 
               <li>
-                <a href="o-mne.html">O mně</a>
+                <a href="o-mne.php">O mně</a>
               </li>
               <li>
-                <a href="kontakt.html">Kontakt</a>
+                <a href="kontakt.php">Kontakt</a>
               </li>
               <li>
-                <a href="bmi.html">Bmi</a>
+                <a href="bmi.php">Bmi</a>
                 <ul>
                   <li>
-                    <a href="bmi.html#kalkulacka">Kalorická kalkulačka</a>
+                    <a href="bmi.php#kalkulacka">Kalorická kalkulačka</a>
                   </li>
                 </ul>
               </li>
@@ -49,30 +49,4 @@
 
             </ul>
           </nav>
-        </aside><section id="content" class="mx-2">
-  <h2>BMI - Body Mass Index</h2>
-
-
-  <a href="#vrch" class="text-center d-block mt-3">🔝 Nahoru</a>
-</section>
-<aside class="right-sidebar">
-  <h3 class="text-center">Externí odkazy</h3>
-  <nav class="menu">
-    <ul>
-      <li><a href="http://vda.cz">VDA.cz</a></li>
-      <li><a href="https://loutaci.cz">Louťáci</a></li>
-      <li><a href="http://iscarex.cz/sport">Iscarex</a></li>
-    </ul>
-  </nav>
-</aside>
-</main>
-<footer class="text-center p-3">
-  Copyright © 2020
-  <a class="bold" href="mailto:kovarlu@eskola.eu">Lukáš Kovář</a>
-</footer>
-</div>
-</div>
-<script src="script.js"></script>
-</body>
-
-</html>
+        </aside>
