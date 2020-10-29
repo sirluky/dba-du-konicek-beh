@@ -46,7 +46,7 @@
     </tbody>
   </table>
   <h2>BMI kalkulačka</h2>
-  <iframe id="kalkulacka" src="https://host.lkovar.tk/dba/c10%20bmi.php" style="width: 100%; height:300px;border:2px dashed gray" frameborder="0"></iframe>
+  <iframe id="kalkulacka" src='https://host.lkovar.tk/dba/c10%20bmi.php' style="width: 100%; height:300px;border:2px dashed gray" frameborder="0"></iframe>
   <a href="#vrch" class="nahoru text-center d-block mt-3">🔝 Nahoru</a>
 </section>
 <?php require 'footer.php' ?>
