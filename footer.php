@@ -11,7 +11,7 @@
   </nav>
 </aside>
 </main>
-<footer class="text-center p-3">
+<footer class="text-center p-3" id="dolu">
   Copyright © 2020
   <a class="bold" href="mailto:kovarlu@eskola.eu">Lukáš Kovář</a>
 </footer>

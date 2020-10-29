@@ -11,14 +11,33 @@
 </head>
 
 <body id="vrch">
+  <div class="icon-wrapper" style="position: absolute;">
+    <a href="#dolu">
+      <svg style="position: relative;top:10px;left:10px;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-down">
+        <line x1="12" y1="5" x2="12" y2="19"></line>
+        <polyline points="19 12 12 19 5 12"></polyline>
+      </svg>
+    </a>
+  </div>
+  <div class="icon-wrapper" style="position: absolute;right:0px">
+    <a href="#dolu">
+      <svg style="position: relative;top:10px;right:10px;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-down">
+        <line x1="12" y1="5" x2="12" y2="19"></line>
+        <polyline points="19 12 12 19 5 12"></polyline>
+      </svg>
+    </a>
+  </div>
+
   <div class="bg">
     <div class="container">
       <header class="p-3 text-center zahlavi">
-        <img src="https://via.placeholder.com/150" alt="" />
-        <div class="">
-          <h2>Lukáš Kovář</h1>
-            <h3>Běh</h3>
-        </div>
+        <img src="./media/lukaskovar.jpg" style="border-radius:50%;" alt="" />
+        <a href="./">
+          <div class="">
+            <h2>Lukáš Kovář</h1>
+              <h3>Běh</h3>
+          </div>
+        </a>
       </header>
       <main class="layout-wrapper m-3">
         <aside class="left-sidebar">
@@ -35,6 +54,9 @@
               </li>
               <li>
                 <a href="kontakt.php">Kontakt</a>
+              </li>
+              <li>
+                <a href="galerie.php">Galerie</a>
               </li>
               <li>
                 <a href="bmi.php">Bmi</a>

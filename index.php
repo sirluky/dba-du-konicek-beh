@@ -1,6 +1,6 @@
 <?php require 'header.php' ?>
 <section id="content" class="mx-2">
-  <h2>Co to je běh ?</h2>
+  <h1>Co to je běh ?</h1>
   <blockquote cite="https://cs.wikipedia.org/wiki/B%C4%9Bh">
     Běh je druh pohybu, při kterém se živočich pohybuje pomocí
     končetin takovým způsobem (převážně větší rychlostí než při jiných
@@ -46,6 +46,6 @@
     </table>
   </div>
 
-  <a href="#vrch" class="text-center d-block mt-3">🔝 Nahoru</a>
+  <a href="#vrch" class="nahoru text-center d-block mt-3">🔝 Nahoru</a>
 </section>
 <?php require 'footer.php' ?>

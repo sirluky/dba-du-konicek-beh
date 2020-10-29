@@ -3,7 +3,7 @@
 Generátor html z http requestů
 */
 // pole souborů na které chceme provést request
-$urls = ['bmi.php', 'index.php', 'kontakt.php', 'o-mne.php'];
+$urls = ['bmi.php', 'index.php', 'kontakt.php', 'o-mne.php', 'galerie.php'];
 
 foreach ($urls as $url) {
   $html_soubor = explode('.', $url)[0] . '.html';
