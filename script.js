@@ -4,6 +4,6 @@ document
   .forEach(
     (prvek) =>
       ("/" + prvek.getAttribute("href") === loc ||
-        prvek.getAttribute("href") === "index.html") &&
+        prvek.getAttribute("href") === (loc === "/" ? "index.html" : "")) &&
       prvek.classList.add("aktivni")
   );

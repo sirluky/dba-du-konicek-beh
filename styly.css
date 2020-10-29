@@ -62,22 +62,28 @@ table tr:nth-child(2n) td {
 table tr:hover td {
   background: rgba(255, 255, 176, 0.486);
 }
+form input,
+form select,
+form label {
+  margin: 10px;
+}
 /* END základní parametry */
 
 /* START barvy */
 :root {
-  --hlavni: rgb(175, 200, 238);
+  --hlavni: rgb(233, 242, 255);
   --sekundarni: rgb(154, 151, 172);
 }
 /* END barvy */
 
 .bg {
-  background: greenyellow;
+  /* background: /; */
 }
 .container {
   margin: auto;
   max-width: 1000px;
   background: lightblue;
+  padding: 20px;
 }
 .layout-wrapper {
 }
@@ -118,11 +124,45 @@ aside .menu ul li {
   text-align: center;
 }
 
+.galerie {
+  display: flex;
+  flex-basis: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.galerie img {
+  width: 100%;
+  padding: 10px;
+
+  transition: transform 1s;
+}
+
+.zdroje {
+  text-align: center;
+  list-style: none;
+  padding-left: 0;
+}
+.zdroje li {
+  padding-left: 0;
+}
+
 /* Střední zařízení (tablety, 768px and up) */
 @media (min-width: 768px) {
   .layout-wrapper {
     display: grid;
     grid-template-columns: 20% auto 20%;
+  }
+
+  .galerie img {
+    width: 33%;
+  }
+
+  .galerie img:hover {
+    transform: scale(2);
+    z-index: 10;
   }
 }
 
@@ -195,6 +235,12 @@ aside .menu ul li {
 }
 .mt-3 {
   margin-top: 1rem;
+}
+.mt-4 {
+  margin-top: 2rem;
+}
+.mt-5 {
+  margin-top: 4rem;
 }
 
 @media (min-width: 992px) {

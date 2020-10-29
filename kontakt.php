@@ -1,48 +1,44 @@
 <?php require 'header.php' ?>
 <section id="content" class="mx-2">
-  <h2>Co to je běh ?</h2>
-  <blockquote cite="https://cs.wikipedia.org/wiki/B%C4%9Bh">
-    Běh je druh pohybu, při kterém se živočich pohybuje pomocí končetin takovým
-    způsobem (převážně větší rychlostí než při jiných způsobech pohybu), že v
-    určitých fázích pohybu se žádná z končetin nedotýká povrchu, po kterém se
-    pohyb vykonává (na rozdíl např. od chůze nebo plazení). Běh je možné
-    vykonávat i na speciální pomůcce k němu určené (běžecký pás). Nejrychlejším
-    běžcem mezi všemi živočichy je gepard štíhlý.
-  </blockquote>
-  <p>
-    Každý člověk při běhu vydává mechanickou energii potřebnou pro pohyb, jejíž
-    množství lze orientačně určit dle následující tabulky.
-  </p>
-  <div class="tabulka-wrapper">
-    <table class="m-auto" style="overflow-x: auto; max-width: 100%">
-      <tbody>
-        <tr>
-          <th>Činnost člověka</th>
-          <th>Výkon</th>
-        </tr>
-        <tr>
-          <td>chůze</td>
-          <td>60 W</td>
-        </tr>
-        <tr>
-          <td>běh maratón</td>
-          <td>300 W</td>
-        </tr>
-        <tr>
-          <td>běh 1&#160;500&#160;m</td>
-          <td>500 W</td>
-        </tr>
-        <tr>
-          <td>běh 100&#160;m</td>
-          <td>1&#160;200&#160;W</td>
-        </tr>
-        <tr>
-          <td>tepelný výkon v&#160;klidu</td>
-          <td>80&#160;W</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+
+  <form method="get" data-bitwarden-watching="1">
+    <h2>Kontaktní formulář:</h2>
+
+    <p>Pokud máte k webu nějaké připomínky napište mi zprávu</p>
+
+    <fieldset>
+      <legend>Osobní údaje:</legend>
+
+      <label for="jmeno">Jméno:</label>
+      <input type="text" id="jmeno" name="jmeno" placeholder="Petr Novák" required=""><br>
+      <label for="email">Email:</label><input id="email" type="email" name="email" id="" required=""><br>
+      <label for="pohlavi">Pohlaví:</label>
+      <input type="radio" name="pohlavi" value="muz">muž
+      <input type="radio" name="pohlavi" value="zena">žena <br>
+    </fieldset>
+    <fieldset>
+      <legend>Obsah zprávy:</legend>
+
+      <label for="typzpravy">Typ zpravy: </label><select id="typzpravy" name="typzpravy" required="">
+        <option value="" disabled="" selected="">Vyberte ze seznamu</option>
+        <option value="pripominka">pripominka</option>
+        <option value="stiznost">stiznost</option>
+        <option value="zadost">zadost</option>
+        <option value="hodnoceni">hodnoceni</option>
+        <option value="clanek">clanek</option>
+      </select>
+      <br>
+
+      <label for="vzkaz" style="position:relative;top:-30px;">Zpráva:</label>
+      <textarea id="vzkaz" name="vzkaz"></textarea><br>
+
+      <label for="heslo">Heslo:</label><input id="heslo" type="password" name="heslo">
+      <br>
+      <input type="checkbox" id="potvrzVek" name="potvrzVek"><label for="potvrzVek">Je mi minimálně 18 let</label><br>
+      <input type="checkbox" id="podminky" name="podminky"><label for="podminky">Souhlasím s podmínkami</label><br>
+      <button type="submit">Odeslat</button>
+    </fieldset>
+  </form>
 
   <a href="#vrch" class="text-center d-block mt-3">🔝 Nahoru</a>
 </section>
