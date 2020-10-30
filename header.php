@@ -31,7 +31,7 @@
   <div class="bg">
     <div class="container">
       <header class="p-3 text-center zahlavi">
-        <img src="./media/lukaskovar.jpg" style="border-radius:50%;" alt="" />
+        <img src="./media/lukaskovar.jpg" style="border-radius:50%;" alt="Lukáš Kovář Portrét" />
         <a href="./">
           <div class="">
             <h2>Lukáš Kovář</h1>
@@ -60,11 +60,11 @@
               </li>
               <li>
                 <a href="bmi.php">Bmi</a>
-                <ul>
+                <ol>
                   <li>
                     <a href="bmi.php#kalkulacka">Kalorická kalkulačka</a>
                   </li>
-                </ul>
+                </ol>
               </li>
 
 

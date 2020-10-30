@@ -9,12 +9,9 @@
         <th>Slovně</th>
         <th>Od</th>
         <th>Do</th>
-        </td>
       </tr>
-
     </thead>
     <tbody>
-
       <tr>
         <td>těžká podvýživa
         <td>-INF</td>
@@ -43,8 +40,10 @@
         <td>Obezita 3. stupně
         <td>40</td>
         <td> INF</td>
+      </tr>
     </tbody>
   </table>
+
   <h2>BMI kalkulačka</h2>
   <iframe id="kalkulacka" src='https://host.lkovar.tk/dba/c10%20bmi.php' style="width: 100%; height:300px;border:2px dashed gray" frameborder="0"></iframe>
   <a href="#vrch" class="nahoru text-center d-block mt-3">🔝 Nahoru</a>

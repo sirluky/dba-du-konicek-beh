@@ -46,6 +46,40 @@
     </table>
   </div>
 
+  <h3>Soutěže</h3>
+  <ul>
+    <li>
+      <b>Soutěže zvířat</b>
+      <ol>
+        <li>Koně</li>
+        <li>Dostihy respektive dostihový sport – závody v běhu koní s jezdcem.</li>
+        <li>Jezdectví</li>
+        <li>Rodeo</li>
+        <li>Vozatajské soutěže</li>
+        <li>Psi</li>
+        <li>Závody chrtů (chrtí dostihy)</li>
+        <li>Psí spřežení</li>
+      </ol>
+    </li>
+    <li>
+      <b>Soutěže lidí</b>
+      <ul class="listy">
+        <li>
+          Sprint
+        </li>
+        <li>
+          Vytrvalostní běh
+        </li>
+        <li>
+          Orientační běh
+        </li>
+        <li>
+          ...
+        </li>
+      </ul>
+    </li>
+  </ul>
+
   <a href="#vrch" class="nahoru text-center d-block mt-3">🔝 Nahoru</a>
 </section>
 <?php require 'footer.php' ?>
