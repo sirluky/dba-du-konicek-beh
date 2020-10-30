@@ -7,7 +7,7 @@
   <title>[TITULEK] Můj největší koníček</title>
   <!-- Roboto Font -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styly.css" />
+  <link rel="stylesheet" href="../styly.css" />
 </head>
 
 <body id="vrch">
@@ -31,7 +31,7 @@
   <div class="bg">
     <div class="container">
       <header class="p-3 text-center zahlavi">
-        <img src="./media/lukaskovar.jpg" style="border-radius:50%;" alt="Lukáš Kovář Portrét" />
+        <img src="../media/lukaskovar.jpg" style="border-radius:50%;" alt="Lukáš Kovář Portrét" />
         <a href="./">
           <div class="">
             <h2>Lukáš Kovář</h1>

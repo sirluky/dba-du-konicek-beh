@@ -3,17 +3,25 @@
 Generátor html z http requestů
 */
 // pole souborů na které chceme provést request
+define('URL', 'http://kovarlu-sport-beh.test/zdrojak/');
 $urls = ['bmi.php', 'index.php', 'kontakt.php', 'o-mne.php', 'galerie.php'];
 
 foreach ($urls as $url) {
   $html_soubor = explode('.', $url)[0] . '.html';
 
   // provede http GET request
-  $obsah = file_get_contents('http://kovarlu-sport-beh.test/' . $url);
+  $obsah = file_get_contents(URL . $url);
 
   // změní adresy na koncovku .html
   $obsah = str_replace('.php"', '.html"', $obsah);
   $obsah = str_replace('.php#', '.html#', $obsah);
+
+  // změní cesty
+  $obsah = str_replace('"./', '"../', $obsah);
+
+
+
+
 
   $titulek = '';
   preg_match("/<h1>(.+)<\/h1>/", $obsah,  $titulek);
@@ -30,7 +38,7 @@ foreach ($urls as $url) {
 
   if ($obsah !== false) {
     // uložení souboru
-    file_put_contents($html_soubor, $obsah);
+    file_put_contents("../" . $html_soubor, $obsah);
     echo $html_soubor . ' vygenerován. <br>';
   }
 }

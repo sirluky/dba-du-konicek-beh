@@ -60,14 +60,17 @@ table th {
   background: rgba(255, 255, 255, 0.678);
 }
 /* selektor přímého potomka/následníka */
-table tr > td {
+table tbody tr > td {
   background: rgb(209, 209, 209);
 }
-table tr:nth-child(2n) td {
+table tbody tr:nth-child(2n) td {
   background: rgb(170, 170, 170);
 }
-table tr:hover td {
+table tbody tr:hover td {
   background: rgba(255, 255, 176, 0.486);
+}
+table tfoot tr > td {
+  background: rgb(255, 255, 255);
 }
 /* Selektor sourozence */
 h1 ~ p::first-letter {
@@ -203,7 +206,9 @@ aside .menu ul li {
 }
 
 /* Asi 2 měsíce starý standard pro stylování markeru v listech */
-.listy::marker {
+.listy li::marker {
+  content: "- ";
+  font-weight: bolder;
 }
 
 /* Velká zařízení (pc, 992px a výše) */

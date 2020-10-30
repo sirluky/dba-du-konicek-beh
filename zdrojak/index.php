@@ -43,6 +43,12 @@
           <td>80&#160;W</td>
         </tr>
       </tbody>
+      <tfoot>
+        <tr>
+
+          <td colspan="2" rowspan="2">Tabulka porovnání energetické výtěže</td>
+        </tr>
+      </tfoot>
     </table>
   </div>
 
@@ -69,9 +75,12 @@
         </li>
         <li>
           Vytrvalostní běh
-        </li>
-        <li>
-          Orientační běh
+          <ul>
+            <li>Přespolní</li>
+            <li>
+              Orientační běh
+            </li>
+          </ul>
         </li>
         <li>
           ...
